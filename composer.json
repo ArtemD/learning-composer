@@ -1,0 +1,15 @@
+{
+    "name": "artemd/wptest25",
+    "autoload": {
+        "psr-4": {
+            "Artemd\\Wptest25\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Artem Daniliants",
+            "email": "artem@daniliants.ventures"
+        }
+    ],
+    "require": {}
+}
