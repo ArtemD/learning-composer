@@ -1,5 +1,7 @@
 {
     "name": "artemd/wptest25",
+    "description": "Learning Composer",
+    "license": "proprietary",
     "autoload": {
         "psr-4": {
             "Artemd\\Wptest25\\": "src/"
@@ -11,5 +13,7 @@
             "email": "artem@daniliants.ventures"
         }
     ],
-    "require": {}
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    }
 }

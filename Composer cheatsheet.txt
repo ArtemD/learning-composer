@@ -1,0 +1,43 @@
+BASIC COMMANDS
+composer init - Interactively creates composer.json file and src and vendor directories
+composer install - Installs dependencies listed in composer.json
+composer require - Adds a dependency to composer.json and installs it (vendor/)
+
+Managing dependencies
+composer update - Updates dependencies to their latest versions
+composer update vendor/package - Updates a specific dependency
+composer remove vendor/package - Removes a dependency
+composer outdated - Shows outdated dependencies
+composer require <package>:<version> - Adds a specific version of a dependency
+
+Autoloading and optimizing
+composer dump-autoload - Generates a new autoload file
+composer dump-autoload -o - Optimizes autoload files
+composer dump-autoload --no-dev - Generates a new autoload file without development dependencies
+
+Deployment
+composer install --no-dev - Installs dependencies without development dependencies
+composer update --no-dev - Updates dependencies without development dependencies
+composer audit - Checks for security vulnerabilities in dependencies
+
+Debugging and maintenance
+composer show - Lists all installed packages
+composer show vendor/package - Shows information about a specific package
+composer validate - Validates composer.json file
+composer clear-cache - Clears the cache
+
+Global commands
+composer global require - Installs a package globally
+composer global update - Updates all globally installed packages
+composer global show - Lists all globally installed packages
+composer global remove - Removes a globally installed package
+
+Development packages
+composer require --dev - Adds a development dependency
+composer require --dev vendor/package - Adds a development dependency
+composer require --dev vendor/package:dev-branch - Adds a development dependency from a specific branch
+composer require --dev vendor/package:dev-branch - Adds a development dependency from a specific branch
+composer require --dev vendor/package:dev-branch - Adds a development dependency from a specific branch
+
+Optimising composer
+composer optimize - Optimizes the autoload files
